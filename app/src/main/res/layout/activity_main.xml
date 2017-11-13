@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yo.examenalquilerpiso.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="173dp"
+        android:text="Guardar"
+        android:onClick="guardar"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_x="202dp"
+        android:layout_y="173dp"
+        android:text="Reestablecer"
+        android:onClick="reestablecer"/>
+
+    <EditText
+        android:id="@+id/dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="31dp"
+        android:layout_y="33dp"
+        android:ems="10"
+        android:hint="Dia"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/mes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="31dp"
+        android:layout_y="93dp"
+        android:ems="10"
+        android:hint="Mes"
+        android:inputType="textPersonName" />
+
+</AbsoluteLayout>
